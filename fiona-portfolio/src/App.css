@@ -9,23 +9,28 @@
   background: #A770EF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .avatar-img{
-  height: 250px;
-  padding: 5em;
+  height: 280px;
+  padding: 2em;
   border-radius: 50%;
+  margin-top: 4%;
 }
 .banner-text{
   background-color: black;
   opacity: .8;
-  width: 75%;
+  width: 60%;
   margin: auto;
   border-radius: 10px;
 }
 .banner-text h1{
-  font-size: 66px;
+  font-size: 70px;
   font-weight: bold;
   color: white;
 }
@@ -36,6 +41,18 @@
 }
 .banner-text p{
   color:white;
-  font-size: 20px;
+  font-size: 23px;
   padding: 1em;
+}
+.social-link{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.social-link i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
