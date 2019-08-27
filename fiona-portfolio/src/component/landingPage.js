@@ -17,7 +17,7 @@ class Landing extends Component {
 
                             <hr/>
 
-                            <p>HTML/CSS | Bootstrap | JavaScript/jQery | React | Ruby on Rails | Python | NodeJS | Express | SQL | MongoDB </p>
+                            <p>HTML / CSS | Bootstrap | JavaScript / jQery | React | Ruby on Rails | Python | NodeJS | Express | SQL | MongoDB </p>
 
                             <div className="social-link">
 
@@ -25,7 +25,7 @@ class Landing extends Component {
                                 <a href="https://www.linkedin.com/in/yufei-lan-92b340186/"  rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
-                                
+
                                 {/* Github */}
                                 <a href="https://github.com/Fionalan727"  rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
