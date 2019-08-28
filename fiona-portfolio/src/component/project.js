@@ -123,12 +123,6 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                     <h1>This is Bootstrap</h1>
                 </div>
             )
-        }else if (this.state.activeTab === 3){
-            return(
-                <div>
-                    <h1>This is RUBY ON RAILS</h1>
-                </div>
-            )
         }
     }
 
@@ -139,7 +133,7 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                     <Tab>Express</Tab>
                     <Tab>React</Tab>
                     <Tab>Bootstrap/API</Tab>
-                    <Tab>Ruby on Rails</Tab>
+
                 </Tabs>
                 
                 <Grid>
