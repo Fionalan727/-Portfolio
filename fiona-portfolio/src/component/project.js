@@ -8,6 +8,35 @@ class Projects extends Component {
             activeTab: 0
         };
     }
+
+    toggleCategories(){
+        if(this.state.activeTab === 0){
+            return(
+                <div>
+                    <h1>This is Express</h1>
+                </div>
+            )
+        }else if(this.state.activeTab === 1){
+            return(
+                <div>
+                    <h1>This is React</h1>
+                </div>
+            )
+        }else if(this.state.activeTab === 2){
+            return(
+                <div>
+                    <h1>This is Bootstrap</h1>
+                </div>
+            )
+        }else if (this.state.activeTab === 3){
+            return(
+                <div>
+                    <h1>This is RUBY ON RAILS</h1>
+                </div>
+            )
+        }
+    }
+
     render(){
         return(
             <div className="category-tabs">
@@ -17,6 +46,9 @@ class Projects extends Component {
                     <Tab>Bootstrap/API</Tab>
                     <Tab>Ruby on Rails</Tab>
                 </Tabs>
+                <section className="projects-grid">
+                    {this.toggleCategories()}
+                </section>
             </div>
         )
     }
