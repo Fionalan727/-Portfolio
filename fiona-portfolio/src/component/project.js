@@ -119,8 +119,41 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
             )
         }else if(this.state.activeTab === 2){
             return(
-                <div>
-                    <h1>This is Bootstrap</h1>
+                <div className="projects-grid">
+                    {/* Pattern */}
+                    <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/pattern.png) center / cover'}}>
+                            Museum of Candy
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                        One page responsive website made by Bootstrap 4, HTML, CSS and jQuery
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/Chatty-App" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                    {/* Candy Museum */}
+                    <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/candy.png) center / cover'}}>
+                            Pattern
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                        One page responsive website made by Bootstrap 4, HTML, CSS only
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/Chatty-App" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
                 </div>
             )
         }
@@ -133,7 +166,7 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                     <Tab>Express</Tab>
                     <Tab>React</Tab>
                     <Tab>Bootstrap/API</Tab>
-
+                   
                 </Tabs>
                 
                 <Grid>
