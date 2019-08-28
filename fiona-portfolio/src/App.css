@@ -61,3 +61,19 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.projects-grid{
+  display: flex;
+}
+.card{
+  min-width: 400px;
+  margin: auto;
+}
+.card-text{
+  min-height: 139px;
+}
+.card-title{
+  height: 230px;
+  width: 400px;
+
+}

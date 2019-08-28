@@ -12,24 +12,66 @@ class Projects extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-                    <CardTitle style={{color:'grey', height:'176px', background:'url(./images/with.png) center / cover'}}>
-                        Scepter--Twitter Clone
-                    </CardTitle>
-                    <CardText>
-                    Twitter clone powered by AJAX
+                <div className="projects-grid">
 
-                    Frameworks: Express, jQuery, MongoDB, Node, SASS
-                    </CardText>
-                    <CardActions border>
-                        <a href="https://github.com/Fionalan727/tweeter" rel="noopener noreferrer" target="_blank">
-                            <Button clolored>Github</Button>
-                        </a>
-                    </CardActions>
-                    <CardMenu style={{color:'grey'}}>
-                      <IconButton name="share"/>
-                    </CardMenu>
-                </Card>
+                    {/* Pizza UTO Project */}
+                    <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/pizzaUTO.png) center / cover'}}>
+                            Pizza UTO
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                         web application for a singular restaurant where a user can order for pick-up. The web app use Twilio API
+to communicate with the restaurant (SMS text) about a new order placed.  Frameworks: Express, node, Ajax.
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/midterm-project-6" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Twitter Project */}
+                    <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/with.png) center / cover'}}>
+                            Scepter Tweet
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                            Scepter Tweet is a single page Twitter clone project powered by AJAX. Frameworks: Express, jQuery, MongoDB, Node, SASS
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/tweeter" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Tiny App Project */}
+                    <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/TinyURL.png) center / cover'}}>
+                            Tiny Scepter
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                            Tiny Scepter is a full stack web application built with Node and Express that allow users to shorten urls (like bit.ly).
+
+                            Frameworks: Express, Node
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/TinyApp-Project" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                </div>
+                
             )
         }else if(this.state.activeTab === 1){
             return(
@@ -61,15 +103,14 @@ class Projects extends Component {
                     <Tab>Bootstrap/API</Tab>
                     <Tab>Ruby on Rails</Tab>
                 </Tabs>
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
-                        <Cell col={12}>
-                            <div className="content">
-                                {this.toggleCategories()}
-                            </div>
-                        </Cell>
-                    </Grid>
-                </section>
+                
+                <Grid>
+                    <Cell col={12}>
+                        <div className="content">
+                            {this.toggleCategories()}
+                         </div>
+                    </Cell>
+                </Grid>
             </div>
         )
     }
