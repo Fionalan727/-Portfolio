@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, IconButton ,Card , CardTitle , CardActions , Button, CardText, CardMenu } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -12,9 +12,24 @@ class Projects extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                <div>
-                    <h1>This is Express</h1>
-                </div>
+                <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+                    <CardTitle style={{color:'grey', height:'176px', background:'url(./images/with.png) center / cover'}}>
+                        Scepter--Twitter Clone
+                    </CardTitle>
+                    <CardText>
+                    Twitter clone powered by AJAX
+
+                    Frameworks: Express, jQuery, MongoDB, Node, SASS
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/Fionalan727/tweeter" rel="noopener noreferrer" target="_blank">
+                            <Button clolored>Github</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color:'grey'}}>
+                      <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
             )
         }else if(this.state.activeTab === 1){
             return(
@@ -47,7 +62,13 @@ class Projects extends Component {
                     <Tab>Ruby on Rails</Tab>
                 </Tabs>
                 <section className="projects-grid">
-                    {this.toggleCategories()}
+                    <Grid className="projects-grid">
+                        <Cell col={12}>
+                            <div className="content">
+                                {this.toggleCategories()}
+                            </div>
+                        </Cell>
+                    </Grid>
                 </section>
             </div>
         )
