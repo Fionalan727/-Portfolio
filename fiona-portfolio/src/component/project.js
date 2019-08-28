@@ -76,6 +76,8 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
         }else if(this.state.activeTab === 1){
             return(
                 <div className="projects-grid">
+
+                    {/* Better-Bytes project */}
                      <Card shadow={5} className="card">
                         <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/betterbytes.png) center / cover'}}>
                             Better-Bytes
@@ -86,6 +88,26 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
                         </CardText>
                         <CardActions border>
                             <a href="https://github.com/Fionalan727/Better-Bytes" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Chatty Scepter Project */}
+                    <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/chatty.png) center / cover'}}>
+                            Chatty Scepter
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                        Designed a client-side SPA(single-page application)that allows multiple users to chat with each other. The client-side
+app,built with ReactJS,communicates with a server via Web Sockets for multi-user real-time updates.
+Frameworks: Express, Node, React, Web Sockets, Web-pack
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/Chatty-App" rel="noopener noreferrer" target="_blank">
                                 <Button clolored>Github</Button>
                             </a>
                         </CardActions>
