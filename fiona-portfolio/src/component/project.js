@@ -75,8 +75,24 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
             )
         }else if(this.state.activeTab === 1){
             return(
-                <div>
-                    <h1>This is React</h1>
+                <div className="projects-grid">
+                     <Card shadow={5} className="card">
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/betterbytes.png) center / cover'}}>
+                            Better-Bytes
+                        </CardTitle>
+                        <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                        Better Bytes was a passionately collaborative project, meant to provide users with delicious new meal ideas, sorted by the lowest price and location and finalized into a grocery list.
+                        Frame work: Express, Node,React, Cheerio.js.
+                        </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/Fionalan727/Better-Bytes" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Github</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color:'grey'}}>
+                        <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
                 </div>
             )
         }else if(this.state.activeTab === 2){
