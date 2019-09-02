@@ -123,8 +123,7 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                     {/* Pattern */}
                     <Card shadow={5} className="card">
                         <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/pattern.png) center / cover'}}>
-                            Museum of Candy
-                        </CardTitle>
+                        Pattern                        </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
                         One page responsive website made by Bootstrap 4, HTML, CSS and jQuery
                         </CardText>
@@ -140,7 +139,7 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                     {/* Candy Museum */}
                     <Card shadow={5} className="card">
                         <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/candy.png) center / cover'}}>
-                            Pattern
+                            Museum Of Candy
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
                         One page responsive website made by Bootstrap 4, HTML, CSS only
