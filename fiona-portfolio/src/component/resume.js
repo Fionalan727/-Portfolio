@@ -31,8 +31,22 @@ class Resume extends Component {
                      <h2>Education</h2>
 
                      <Education
-                        startYear={2012}
+                        startYear={2019}
+                        endYear={2019}
+                        schoolName='Lighthouse Labs Web Development Bootcamp'
+                        description="Lighthouse Labs is a coding bootcamp for web and mobile software development in multiple cities across Canada."
                      />
+
+                    <Education
+                        startYear={2014}
+                        endYear={2018}
+                        schoolName='Downsivew Secondary School'
+                        description="Downsview Secondary School is a semestered public secondary school in the area of Toronto, Ontario, Canada."
+                     />
+
+                    <hr style={{borderTop:"3px solid #e22947"}}/>
+                    <h2>Skills</h2>
+                    
 
                     </Cell>
                 </Grid>
