@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
+import Skills from './skills';
 class Resume extends Component {
     render(){
         return(
@@ -23,8 +24,8 @@ class Resume extends Component {
                         <p>(647)-937-4588</p>
                         <h5>Email</h5>
                         <p>lanyufei518@gmail.com/ lanyufei727@gmail.com</p>
-                        <h5>Website</h5>
-                        <p>mywebsite.com</p>
+                        <h5>Resume</h5>
+                        <a href="https://resume.creddle.io/resume/bu6s47g78xy" rel="noopener noreferrer" target="_blank">My Resume</a>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
@@ -46,7 +47,7 @@ class Resume extends Component {
 
                     <hr style={{borderTop:"3px solid #e22947"}}/>
                     <h2>Skills</h2>
-                    
+                    <Skills/>
 
                     </Cell>
                 </Grid>
