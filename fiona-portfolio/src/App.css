@@ -103,3 +103,9 @@
   font-size: 22px;
   line-height: 2;
 }
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
