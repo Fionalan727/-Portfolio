@@ -4,6 +4,8 @@
   background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+/* landing page */
 .landing-grid{
   background: #FEAC5E;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
@@ -57,6 +59,7 @@
   padding: 8px;
 }
 
+/* project page */
 .projects-grid{
   display: flex;
 }
@@ -73,6 +76,7 @@
 
 }
 
+/* contact page */
 .contact-body{
   margin: auto;
   position: fixed;
@@ -118,4 +122,10 @@
 .contact-list{
   padding-top: 70px;
   line-height: 2;
+}
+
+/* resume page */
+.resume-right-col{
+  background: #27221F;
+  color: white;
 }
