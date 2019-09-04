@@ -11,11 +11,20 @@ class Resume extends Component {
                             <img 
                                 src="./images/profile.jpg"
                                 alt="avatar"
-                                style={{height:'200px',borderRadius:"50%"}}
+                                style={{height:'240px',borderRadius:"50%"}}
                             />
                         </div>
-                        <h2 style={{paddingTop:'2em'}}>Yufei Lan</h2>
+                        <h2 style={{paddingTop:'1em'}}>Yufei Lan</h2>
                         <h4 style={{color:'grey'}}>Full Stack Web Developer</h4>
+                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <p>Full stack developer who is passionate about problem solving and logical puzzles . Enjoys building awesome websites that combine functionality with efficiency to create an intuitive and beautiful user experience. Strong team player driven by results with efficiency.</p>
+                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <h5>Phone</h5>
+                        <p>(647)-937-4588</p>
+                        <h5>Email</h5>
+                        <p>lanyufei518@gmail.com/ lanyufei727@gmail.com</p>
+                        <h5>Website</h5>
+                        <p>mywebsite.com</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                     </Cell>
                     <Cell col={8} className="resume-right-col">Right Side</Cell>

@@ -12,7 +12,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{height:'322px',borderRadius:'4%', marginTop:'13px'}}
                         />
-                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Full stack developer who is passionate about problem solving and logical puzzles . Enjoys building awesome websites that combine functionality with efficiency to create an intuitive and beautiful user experience. Strong team player driven by results with efficiency. </p>
+                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Full stack developer who is passionate about problem solving and logical puzzles.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
