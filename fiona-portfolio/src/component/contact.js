@@ -26,10 +26,15 @@ class Contact extends Component {
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px',fontFamily:'Anton'}}>Aaron Paul</ListItemContent>
+                                    <ListItemContent style={{fontSize:'33px',fontFamily:'Anton'}}>
+                                        <i className="fa fa-phone-square" aria-hidden="true"/>
+                                        lanyufei518@gmail.com
+                                    </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px',fontFamily:'Anton'}}>Bob Odenkirk</ListItemContent>
+                                    <ListItemContent style={{fontSize:'33px',fontFamily:'Anton'}}>
+
+                                    </ListItemContent>
                                 </ListItem>
                             </List>
                         </div>
