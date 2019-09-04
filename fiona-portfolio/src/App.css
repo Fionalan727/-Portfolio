@@ -72,3 +72,34 @@
   width: 400px;
 
 }
+
+.contact-body{
+  margin: auto;
+  background:grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 820px;
+  color: black;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'oxgen',sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 2;
+}
