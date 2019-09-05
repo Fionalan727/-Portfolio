@@ -15,7 +15,7 @@ class Resume extends Component {
                                 style={{height:'240px',borderRadius:"50%"}}
                             />
                         </div>
-                        <h2 style={{paddingTop:'1em'}}>Yufei Lan</h2>
+                        <h2 style={{paddingTop:'1em'}}>Fiona Lan</h2>
                         <h4 style={{color:'grey'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                         <p>Full stack developer who is passionate about problem solving and logical puzzles . Enjoys building awesome websites that combine functionality with efficiency to create an intuitive and beautiful user experience. Strong team player driven by results with efficiency.</p>
@@ -51,7 +51,23 @@ class Resume extends Component {
                         <Skills skill="javaScript"/>
                         <Skills skill="HTML5"/>
                         <Skills skill="CSS3"/>
-                        <Skills skill="React"/>
+                        <Skills skill="Ruby"/>
+                        <Skills skill="Python"/>
+                        <Skills skill="NodeJS"/>
+                        <Skills skill="Ajax"/>
+                        <Skills skill="Rails"/>
+                        <Skills skill="Express"/>
+                        <Skills skill="jQuery"/>
+                        <Skills skill="EJS"/>
+                        <Skills skill="Bootstrap 3&4"/>
+                        <Skills skill="WebSocket"/>
+                        <Skills skill="Git"/>
+                        <Skills skill="SQL"/>
+                        <Skills skill="PostgreSQL"/>
+                        <Skills skill="MongoDB"/>
+
+
+
 
                     </Grid>
 
