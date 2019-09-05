@@ -6,7 +6,7 @@ class Resume extends Component {
     render(){
         return(
             <div>
-                <Grid>
+                <Grid >
                     <Cell col={4}>
                         <div style={{textAlign:'center'}}>
                             <img 

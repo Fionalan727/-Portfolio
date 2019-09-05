@@ -12,7 +12,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{height:'322px',borderRadius:'4%', marginTop:'13px'}}
                         />
-                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Full stack developer who is passionate about problem solving and logical puzzles.</p>
+                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Full stack developer who is passionate about problem solving and logical puzzles . Enjoys building awesome websites that combine functionality with efficiency to create an intuitive and beautiful user experience. Strong team player driven by results with efficiency. </p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -20,14 +20,14 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'30px',fontFamily:'Anton',paddingBottom:'20px'}}>
+                                    <ListItemContent style={{fontSize:'30px',fontFamily:'Anton',color:'white',paddingBottom:'20px'}}>
                                         <i className="fa fa-phone-square" aria-hidden="true"/>
                                         (647)-937-4588
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
+                                    <ListItemContent style={{fontSize:'30px',fontFamily:'Anton',color:'white'}}>
                                         <i className="fa fa-envelope" aria-hidden="true"/>
                                         lanyufei518@gmail.com
                                     </ListItemContent>

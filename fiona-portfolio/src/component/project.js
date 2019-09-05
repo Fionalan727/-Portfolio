@@ -162,9 +162,9 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
         return(
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab: tabId})} ripple>
-                    <Tab>Express</Tab>
-                    <Tab>React</Tab>
-                    <Tab>Bootstrap/API</Tab>
+                    <Tab style={{color:'white',fontWeight:'bold',fontSize:'20px'}}>Express</Tab>
+                    <Tab style={{color:'white',fontWeight:'bold',fontSize:'20px'}}>React</Tab>
+                    <Tab style={{color:'white',fontWeight:'bold',fontSize:'20px'}}>Bootstrap/API</Tab>
                    
                 </Tabs>
                 

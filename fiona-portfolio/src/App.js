@@ -9,18 +9,18 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title={<Link style={{textDecoration:'none',color:'white'}}to="/">Fiona Lan</Link>} scroll>
+            <Header className="header-color" title={<Link style={{textDecoration:'none',color:'white',fontSize:'50px',fontFamily:'Megrim, serif',fontWeight:'bold'}}to="/">Fiona Lan</Link>} scroll>
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link style={{textDecoration:'none',color:'White',fontFamily:'Megrim, serif',fontSize:'25px',fontWeight:'bold'}}to="/resume">Resume</Link>
+                    <Link style={{textDecoration:'none',color:'White',fontFamily:'Megrim, serif',fontSize:'25px',fontWeight:'bold'}}to="/projects">Projects</Link>
+                    <Link style={{textDecoration:'none',color:'White',fontFamily:'Megrim, serif',fontSize:'25px',fontWeight:'bold'}}to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration:'none',color:'black'}}to="/">Fiona Lan</Link>} >
+            <Drawer title={<Link style={{textDecoration:'none',color:'black',fontSize:'30px',fontFamily:'Megrim, serif',fontWeight:'bold'}}to="/">Fiona Lan</Link>} >
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link style={{textDecoration:'none',color:'black',fontSize:'25px',fontWeight:'bold',fontFamily:'Megrim, serif'}}to="/resume">Resume</Link>
+                    <Link style={{textDecoration:'none',color:'black',fontSize:'25px',fontWeight:'bold',fontFamily:'Megrim, serif'}}to="/projects">Projects</Link>
+                    <Link style={{textDecoration:'none',color:'black',fontSize:'25px',fontWeight:'bold',fontFamily:'Megrim, serif'}}to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
             <Content>
