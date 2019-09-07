@@ -8,7 +8,7 @@ class Contact extends Component {
                <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Yufei Lan</h2>
-                        <img src="./images/profile.jpg"
+                        <img src="https://Fionalan727.github.io/Portfolio/images/profile.jpg"
                             alt="avatar"
                             style={{height:'322px',borderRadius:'4%', marginTop:'13px'}}
                         />

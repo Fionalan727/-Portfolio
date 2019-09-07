@@ -16,7 +16,7 @@ class Projects extends Component {
 
                     {/* Pizza UTO Project */}
                     <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/pizzaUTO.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/pizzaUTO.png) center / cover'}}>
                             Pizza UTO
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
@@ -35,7 +35,7 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
 
                     {/* Twitter Project */}
                     <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/with.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/with.png) center / cover'}}>
                             Scepter Tweet
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
@@ -53,7 +53,7 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
 
                     {/* Tiny App Project */}
                     <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/TinyURL.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/TinyURL.png) center / cover'}}>
                             Tiny Scepter
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
@@ -79,7 +79,7 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
 
                     {/* Better-Bytes project */}
                      <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/betterbytes.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/betterbytes.png) center / cover'}}>
                             Better-Bytes
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
@@ -98,7 +98,7 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
 
                     {/* Chatty Scepter Project */}
                     <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/chatty.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/chatty.png) center / cover'}}>
                             Chatty Scepter
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
@@ -122,13 +122,16 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                 <div className="projects-grid">
                     {/* Pattern */}
                     <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/pattern.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/pattern.png) center / cover'}}>
                         Pattern                        </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
                         One page responsive website made by Bootstrap 4, HTML, CSS and jQuery
                         </CardText>
                         <CardActions border>
-                            <a href="https://github.com/Fionalan727/Chatty-App" rel="noopener noreferrer" target="_blank">
+                            <a href="https://fionalan727.github.io/Pattern/" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Website</Button>
+                            </a>
+                            <a href="https://github.com/Fionalan727/Pattern" rel="noopener noreferrer" target="_blank">
                                 <Button clolored>Github</Button>
                             </a>
                         </CardActions>
@@ -138,14 +141,17 @@ Frameworks: Express, Node, React, Web Sockets, Web-pack
                     </Card>
                     {/* Candy Museum */}
                     <Card shadow={5} className="card">
-                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(./images/candy.png) center / cover'}}>
+                        <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/candy.png) center / cover'}}>
                             Museum Of Candy
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
                         One page responsive website made by Bootstrap 4, HTML, CSS only
                         </CardText>
                         <CardActions border>
-                            <a href="https://github.com/Fionalan727/Chatty-App" rel="noopener noreferrer" target="_blank">
+                            <a href="https://fionalan727.github.io/MuseumOfCandy/" rel="noopener noreferrer" target="_blank">
+                                <Button clolored>Website</Button>
+                            </a>
+                            <a href="https://github.com/Fionalan727/MuseumOfCandy" rel="noopener noreferrer" target="_blank">
                                 <Button clolored>Github</Button>
                             </a>
                         </CardActions>
