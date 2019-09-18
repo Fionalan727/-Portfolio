@@ -76,7 +76,27 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
         }else if(this.state.activeTab === 1){
             return(
                 <div className="projects-grid">
-
+                    {/* Monster-Rolodex project */}
+                    <Card shadow={5} className="card">
+                    <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/monster.png) center / cover'}}>
+                        Monster Rolodex
+                    </CardTitle>
+                    <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
+                    Monsters Rolodex is a project is a display platform to display numbers of Monsters and its information. Users can search specific monster by type in letters which contains in its name on the search bar. 
+                    Framework: React.
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/Fionalan727/monsters-rolodex" rel="noopener noreferrer" target="_blank">
+                            <Button clolored>Github</Button>
+                        </a>
+                        <a href="https://fionalan727.github.io/monsters-rolodex/" rel="noopener noreferrer" target="_blank">
+                            <Button clolored>Website</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color:'grey'}}>
+                    <IconButton name="share"/>
+                    </CardMenu>
+                    </Card>
                     {/* Better-Bytes project */}
                      <Card shadow={5} className="card">
                         <CardTitle className="card-title" style={{color:'#FEAC5E', background:'url(https://Fionalan727.github.io/Portfolio/images/betterbytes.png) center / cover'}}>
@@ -84,7 +104,7 @@ to communicate with the restaurant (SMS text) about a new order placed.  Framewo
                         </CardTitle>
                         <CardText className="card-text" style={{fontSize:'1.3rem', lineHeight:'1.5'}}>
                         Better Bytes was a passionately collaborative project, meant to provide users with delicious new meal ideas, sorted by the lowest price and location and finalized into a grocery list.
-                        Frame work: Express, Node,React, Cheerio.js.
+                        Frameworks: Express, Node,React, Cheerio.js.
                         </CardText>
                         <CardActions border>
                             <a href="https://github.com/Fionalan727/Better-Bytes" rel="noopener noreferrer" target="_blank">

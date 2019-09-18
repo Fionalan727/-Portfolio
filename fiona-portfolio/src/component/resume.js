@@ -41,7 +41,7 @@ class Resume extends Component {
                     <Education
                         startYear={2014}
                         endYear={2018}
-                        schoolName='Downsivew Secondary School'
+                        schoolName='Downsiview Secondary School'
                         description="Downsview Secondary School is a semestered public secondary school in the area of Toronto, Ontario, Canada."
                      />
 
